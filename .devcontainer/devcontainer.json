@@ -1,0 +1,17 @@
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11", 
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "python.defaultInterpreterPath": "./env/bin/python"
+    },
+    "postCreateCommand": "[ -f requirements.txt ] && (python -m venv env && . env/bin/activate && pip install --upgrade pip && pip install -r requirements.txt) || echo 'No requirements.txt found, skipping installation'",
+    "extensions": [
+        "ms-python.python"
+    ],
+    "forwardPorts": [8000],
+    "remoteUser": "vscode"
+}
