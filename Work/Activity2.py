@@ -3,7 +3,7 @@ import random
 score = 0
 life = 3
 
-def word_count():
+def word_count(): 
     global score
     global life
     print("Let's play a game")

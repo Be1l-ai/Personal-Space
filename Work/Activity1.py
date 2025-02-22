@@ -2,7 +2,7 @@ import random
 
 score = 0  
 
-def math_prob():
+def math_prob(): 
     global score
     while True:
         num1, num2 = random.randint(1, 10), random.randint(1, 10)

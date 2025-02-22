@@ -3,7 +3,7 @@ import random
 def jack_en_poy():
     print("Let's play!")
     rock, paper, scissors = 1, 2, 3 
-    score = 0
+    score = 0 
     life = 3
     com_score = 0
     while life != 0 and score != 5:
