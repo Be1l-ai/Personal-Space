@@ -19,7 +19,7 @@ while attempts > 0:
                 list_of_letters[i] = user_input
         print("Current word:", list_of_letters)
         if list_of_letters == compare_list:
-            print("Congratulations! You guessed the word correctly.")
+            print("Congratulations! You won.")
             break
     else:
         attempts -= 1

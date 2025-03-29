@@ -11,7 +11,7 @@ print("Guess the shuffled word:", word)
 while attempts > 0:
     user_input = input("Enter your guess: ")
     if user_input == chosen_word:
-        print("Congratulations! You guessed the word correctly.")
+        print("Congratulations! You won.")
         break
     else:
         attempts -= 1

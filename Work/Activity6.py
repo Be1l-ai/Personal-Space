@@ -12,7 +12,7 @@ while attempts > 0:
     try:
         user_sequence = list(map(int, user_input.split()))
         if user_sequence == sequence:
-            print("Congratulations! You remembered the sequence correctly.")
+            print("Congratulations! You won.")
             break
         else:
             attempts -= 1
